@@ -1,0 +1,25 @@
+{
+  "name": "duplicate-transactions",
+  "version": "1.0.0",
+  "description": "This repository will showcase my solution for respond.io task #2 problem.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husseinmenshawi/duplicate-transactions.git"
+  },
+  "author": "Hussein Menshawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/husseinmenshawi/duplicate-transactions/issues"
+  },
+  "homepage": "https://github.com/husseinmenshawi/duplicate-transactions#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
+}
