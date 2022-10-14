@@ -41,12 +41,12 @@ function findDuplicateTransactions(transactions = []) {
           unit: "seconds",
         });
 
-        const isTimeDifferenceLessThanOneMinute = checkIfDatesWithinTimeRange({
+        const isTimeDifferenceWithinRange = checkIfDatesWithinTimeRange({
           timeDifference: timeDifferenceInSeconds,
           timeRange: 60,
         });
 
-        if (isTimeDifferenceLessThanOneMinute) {
+        if (isTimeDifferenceWithinRange) {
           if (!duplicates.includes(transaction)) {
             duplicates.push(transaction);
           }
